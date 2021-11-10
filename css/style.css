@@ -1,0 +1,372 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-size: 14px;
+  line-height: 24px;
+  font-family: "Open Sans", sans-serif;
+}
+
+a,
+a:hover {
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Montserrat", sans-serif;
+}
+
+/* Header Section:- Start */
+.header {
+  width: 100%;
+}
+.header .menu .bg-light {
+  width: 100%;
+  background-color: #ffffff !important;
+}
+.header .menu .navbar-light .navbar-nav .nav-link {
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-left: 5px;
+  color: #28377e;
+  transition: 0.8s ease-in;
+}
+
+.header .menu .navbar-light .navbar-nav .nav-link:hover {
+  color: #f05528;
+}
+/* Header Section:- End */
+
+/* Slider Section:- Start */
+.slider {
+  width: 1007;
+}
+
+.slider .carousel-caption {
+  margin-bottom: 10%;
+}
+.slider .carousel-item h1 {
+  font-size: 52px;
+  line-height: 62px;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+.slider .carousel-item .fas {
+  font-size: 22px;
+  line-height: 36px;
+  font-weight: 600;
+  color: #ffffff;
+  position: absolute;
+  bottom: -70%;
+}
+/* Slider Section:- End */
+
+/* Who We Section:- Start */
+.who-we {
+  width: 100%;
+  padding: 80px 0;
+}
+.inner {
+  margin: 30px 40px 0;
+}
+.who-we .inner h3 {
+  font-size: 24px;
+  line-height: 34px;
+  font-weight: 700;
+  color: #1f4f87;
+  margin-bottom: 20px;
+}
+
+.who-we .inner p {
+  font-size: 14px;
+  line-height: 24px;
+  color: #b0b0b1;
+}
+.who-we .who-we-img {
+  width: 100%;
+  margin-left: 100px;
+}
+/* Who We Section:- End */
+
+/* <!-- What We Do Section:- Start --> */
+.what-we-do {
+  width: 100%;
+  padding: 60px 0;
+  background: url(../images/sub.png) bottom right no-repeat;
+  background-color: #f7f8f8;
+  background-size: auto;
+}
+
+.what-we-do .title {
+  text-align: center;
+  margin-bottom: 8%;
+}
+.what-we-do .title h3 {
+  font-size: 26px;
+  line-height: 36px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #1f4f87;
+}
+.what-we-do .card {
+  background-clip: 0;
+  border: 0px solid rgba(0, 0, 0, 0.125);
+  border-radius: 0;
+}
+.what-we-do .card-img-top {
+  width: 129%;
+}
+.what-we-do .card-body {
+  position: absolute;
+  top: 43%;
+  left: 45%;
+  text-align: center;
+}
+.what-we-do .card-title {
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 600;
+  color: #ffffff;
+}
+.what-we-do .fa-long-arrow-alt-right {
+  font-size: 28px;
+  line-height: 38px;
+  font-weight: 600;
+  color: #ffffff;
+  position: absolute;
+  top: 250%;
+  left: 40%;
+}
+.what-we-do .card-body1 {
+  position: absolute;
+  top: 42%;
+  left: 30%;
+  text-align: center;
+}
+
+.what-we-do .card-body2 {
+  position: absolute;
+  top: 42%;
+  left: 40%;
+  text-align: center;
+}
+/* <!-- What We Do Section:- End --> */
+
+/* Out Auttorneys Section:- Start */
+.our-auttorneys {
+  width: 100%;
+  padding: 80px 0;
+  background: url(../images/bimg.png) center top no-repeat;
+}
+.our-auttorneys .title {
+  padding-top: 70px;
+}
+.our-auttorneys .title h3 {
+  font-size: 30px;
+  line-height: 40px;
+  font-weight: 400;
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+.our-auttorneys .title p {
+  font-size: 14px;
+  line-height: 24px;
+  color: #b0b0b1;
+}
+.our-auttorneys .title a {
+  color: #f05528;
+  text-decoration: none;
+  font-size: 16px;
+  line-height: 26px;
+  font-weight: 600;
+  transition: 1s;
+}
+.our-auttorneys .title a:hover {
+  color: #ffffff;
+}
+.our-auttorneys .card {
+  background-clip: 0;
+  border: 0px solid rgba(0, 0, 0, 0.125);
+  border-radius: 0;
+}
+.our-auttorneys .col-sm-4 {
+  margin: 0px 140px 50px 0;
+}
+.our-auttorneys .card-img-top {
+  width: 129%;
+}
+.our-auttorneys .card-body {
+  position: absolute;
+  bottom: 25px;
+}
+.our-auttorneys .card-title {
+  font-size: 22px;
+  line-height: 32px;
+  font-weight: 600;
+  color: #fff;
+  margin-left: 10px;
+}
+/* Out Auttorneys Section:- End */
+
+/* The Languages Section:- Start */
+.lan {
+  width: 100%;
+  padding: 80px;
+}
+.lan .title {
+  text-align: center;
+  padding-bottom: 60px;
+}
+.lan .title h3 {
+  font-size: 30px;
+  line-height: 40px;
+  font-weight: 500;
+  color: #28377e;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+.lan .content h4 {
+  font-size: 24px;
+  line-height: 34px;
+  font-weight: 700;
+  color: #28377e;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+.lan .content p {
+  font-size: 14px;
+  line-height: 24px;
+  color: #b0b0b1;
+}
+
+.lan .content a {
+  color: #f05528;
+  text-decoration: none;
+  font-size: 16px;
+  line-height: 26px;
+  font-weight: 600;
+  transition: 1s;
+}
+.lan .content a:hover,
+.lan .content a:focus {
+  color: #28377e;
+}
+/* The Languages Section:- End */
+
+/* Contact US Section:- Start */
+.contact-us {
+  width: 100%;
+  padding: 80px 0;
+  background-color: #28377e;
+}
+.contact-us .title {
+  text-align: center;
+}
+.contact-us .title h3 {
+  font-size: 30px;
+  line-height: 40px;
+  font-weight: 700;
+  color: #ffffff;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+.contact-us .border {
+  border: 0;
+  border-bottom: 1px solid #fff;
+}
+.contact-us form {
+  border: 0;
+}
+.contact-us form input {
+  border: 0;
+  background: transparent;
+  font-size: 24px;
+  line-height: 34px;
+  border-bottom: 1px solid #fff;
+  margin-bottom: 15px;
+}
+
+.contact-us form textarea {
+  border: 0;
+  border-bottom: 1px solid #fff;
+  background: transparent;
+  border-radius: 0;
+  margin-top: 5px;
+}
+.contact-us textarea::placeholder {
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  color: #fff;
+}
+.contact-us input::placeholder {
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  color: #fff;
+}
+
+input,
+optgroup,
+select {
+  padding-right: 45%;
+}
+
+textarea {
+  padding-right: 58%;
+  overflow: hidden;
+}
+
+.contact-us .btn {
+  background-color: #e95e2a;
+  color: #fff;
+  margin-top: 40px;
+  margin-left: 45%;
+  padding: 10px 60px;
+  transition: 1s;
+}
+
+.contact-us .btn:hover,
+.contact-us .btn:focus {
+  background-color: #fff;
+  color: #f05528;
+}
+
+/* Contact US Section:- End */
+
+/* Footer Section:- Start */
+.footer {
+  width: 100%;
+  padding: 40px 0;
+  background-color: #0c1234;
+}
+.footer p {
+  font-size: 18px;
+  line-height: 28px;
+  color: #5a659d;
+  padding-top: 15px;
+}
+.footer a .fab {
+  font-size: 24px;
+  line-height: 34px;
+  color: #b1b7dd;
+  padding: 15px 10px 0 0;
+}
+
+.footer a:hover {
+  color: #ffff;
+}
+/* Footer Section:- End */
